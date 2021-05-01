@@ -8,6 +8,10 @@
   background-image: linear-gradient(to top, #4f6a8d 0%, #e0edfe 100%);
 }
 
+.Underline {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
 .Search {
   line-height: 1;
 }
