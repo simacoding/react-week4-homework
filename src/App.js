@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
 
-function App() {
+import Search from "./Search";
+import Appleftside from "./Appleftside";
+import Apprightside from "./Apprightside";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Search />
+      <div className="row">
+        <div className="col-8">
+          <Appleftside />
+        </div>
+        <div className="col-4">
+          <Apprightside />
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;

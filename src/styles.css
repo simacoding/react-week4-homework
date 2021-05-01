@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  border: solid;
+  margin: 0 auto;
+  padding: 20px 30px;
+  max-width: 500px;
+  border: 1px solid grey;
+  background-image: linear-gradient(to top, #4f6a8d 0%, #e0edfe 100%);
+}
+
+.Search {
+  line-height: 1;
+}
+.City {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.Temperature {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.Weatherinfo {
+  font-weight: lighter;
+  line-height: 0.5;
+}
+#icon {
+  width: 80%;
+  height: auto;
+}
+
+#entercity {
+  width: 70%;
+  line-height: 2;
+  border: 1px solid grey;
+}
+
+#searchbutton {
+  background: #ffffff;
+  border-radius: 5%;
+  border: 1px solid;
+  border-color: grey;
+  line-height: 2;
+}
+
+#currentlocation {
+  background: #ffffff;
+  border-radius: 5%;
+  border: 1px solid;
+  border-color: grey;
+  line-height: 2;
+}
+
+.unit {
+  position: relative;
+  top: -16px;
+}
+
+#fahrenheit-unit {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#celsius-unit {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
