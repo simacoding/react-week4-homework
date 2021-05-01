@@ -1,4 +1,5 @@
 import "./styles.css";
+import axios from "axios";
 
 import Search from "./Search";
 import Appleftside from "./Appleftside";
